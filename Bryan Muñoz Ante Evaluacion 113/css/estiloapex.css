@@ -1,0 +1,56 @@
+body
+{
+	background-repeat:no-repeat;
+  	background-position-x:center;
+  	background-position-y:center;
+  	background-size: 100rem;
+	background: url(https://media.contentapi.ea.com/content/dam/apex-legends/common/apex-section-bg-saviors-season-return-user-xl.jpg.adapt.1920w.jpg);
+}
+
+header
+{
+	text-align: center;
+	background: black;
+	color: white;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+nav
+{
+    margin-right: 1100px;	
+	background-color: black;
+	font-family: sans-serif;	
+}
+p
+{
+	text-align: justify;
+
+}
+.leyendas {
+    min-height: .01%;
+    overflow-x: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .leyendas {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #ddd;
+    }
+    .leyendas > .table {
+        margin-bottom: 0;
+    }
+    .leyendas > .table > thead > tr > th,
+    .leyendas > .table > tbody > tr > th,
+    .leyendas > .table > tfoot > tr > th,
+    .leyendas > .table > thead > tr > td,
+    .leyendas > .table > tbody > tr > td,
+    .leyendas > .table > tfoot > tr > td {
+        white-space: nowrap;
+    }
+}
