@@ -1,0 +1,104 @@
+body
+{
+	background-color: #323A43;
+}
+header
+{
+
+	 background-repeat:no-repeat;
+  background-position-x:center;
+  background-position-y:center;
+  background-size: 100rem;
+	text-align: center;	
+	background-image: url("https://lh3.googleusercontent.com/YTkzcKHkm1h-U5jPCV9KfBRZJ2KSnmIZkTCTJR5S1HfNmWqBMyL-3TOcL_FgK8WbT7MDZA=s170");
+}
+
+h1
+{
+	color: white;
+}
+h2
+{
+	color: white;
+}
+h4
+{
+	color: white;
+}
+td
+{
+	color: white;
+}
+table
+{
+	text-align: justify;
+	text-align: center;
+}
+nav
+{
+	font-family: sans-serif;
+	background-color: black;
+	margin-right: 1100px;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}
+p
+{
+	text-align: justify;
+	color: white;
+
+}
+.personajes {
+    min-height: .01%;
+    overflow-x: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .personajes {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #ddd;
+    }
+    .personajes > .table {
+        margin-bottom: 0;
+    }
+    .personajes > .table > thead > tr > th,
+    .personajes> .table > tbody > tr > th,
+    .personajes > .table > tfoot > tr > th,
+    .personajes > .table > thead > tr > td,
+    .personajes > .table > tbody > tr > td,
+    .personajes > .table > tfoot > tr > td {
+        white-space: nowrap;
+    }
+}
+.mapas {
+    min-height: .01%;
+    overflow-x: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .mapas {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #ddd;
+    }
+    .mapas > .table {
+        margin-bottom: 0;
+    }
+    .mapas > .table > thead > tr > th,
+    .mapas > .table > tbody > tr > th,
+    .mapas > .table > tfoot > tr > th,
+    .mapas > .table > thead > tr > td,
+    .mapas > .table > tbody > tr > td,
+    .mapas > .table > tfoot > tr > td {
+        white-space: nowrap;
+    }
+}
