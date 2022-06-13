@@ -1,0 +1,56 @@
+body
+{
+	background-repeat:no-repeat;
+  	background-position-x:center;
+  	background-position-y:center;
+  	background-size: 100rem;
+	background: url(https://i0.wp.com/www.coliseugeek.com.br/wp-content/uploads/2021/09/coliseugeek-wallpaper-fortnite-4k_img1-scaled.jpg?fit=2560%2C1440&ssl=1);
+}
+
+header
+{
+	text-align: center;
+	background: black;
+	color: white;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+nav
+{
+    margin-right: 1100px;	
+	background-color: black;
+	font-family: sans-serif;	
+}
+p
+{
+	text-align: justify;
+
+}
+.modos {
+    min-height: .01%;
+    overflow-x: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .modos {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #ddd;
+    }
+    .modos > .table {
+        margin-bottom: 0;
+    }
+    .modos > .table > thead > tr > th,
+    .modos > .table > tbody > tr > th,
+    .modos > .table > tfoot > tr > th,
+    .modos > .table > thead > tr > td,
+    .modos > .table > tbody > tr > td,
+    .modos > .table > tfoot > tr > td {
+        white-space: nowrap;
+    }
+}

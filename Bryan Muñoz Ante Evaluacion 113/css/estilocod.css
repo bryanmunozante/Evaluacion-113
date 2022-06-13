@@ -1,0 +1,36 @@
+body
+{
+	background-repeat:no-repeat;
+  	background-position-x:center;
+  	background-position-y:center;
+  	background-size: 100rem;
+	background: url(https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw-wz/VGD-WZ-S2-POIS-011.jpg);
+}
+
+header
+{
+	text-align: center;
+	background: black;
+	color: white;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+nav
+{
+    margin-right: 1100px;	
+	background-color: black;
+	font-family: sans-serif;	
+}
+p
+{
+	text-align: justify;
+    color: white;
+
+}
+h2
+{
+    color: white;
+}
